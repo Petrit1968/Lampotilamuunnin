@@ -1,0 +1,17 @@
+h1 {
+    font-size: 300%;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    color: orangered;
+    display: block;
+    text-align: center;
+  }
+
+  p {
+    font-size: 150%;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    color: black;
+    display: block;
+    text-align: center;
+  }

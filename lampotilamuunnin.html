@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "fi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, intial-scale-1.0">
+        <title>lampotilamuunnin</title>
+        <link href="lampotilamuunnin.css" rel="stylesheet">
+        <script src ="lampotilamuunnin.js" defer></script>
+    </head>
+    <section>
+        <h1>Lämpötilamuunnin °C-°F / °F-°C</h1>
+        <p>
+            <label>Anna lämpötila (celsius tai fahrenheit): </label>
+            <input type="text" id="asteet" value="0" />
+        </p>
+
+        <p>
+            <label>Valitse muunnon tyyppi:   </label>
+            <input type="button" value="   Celsius To Fahrenheit   " onclick="cfmuunnin()" />
+            <input type="button" value="   Fahrenheit To Celsius    " onclick="fcmuunnin()" />
+        </p>
+
+        <p>Tulos: <span id="tulos"></span>
+        </p>
+    </section>
+
+</body>
+</html>
